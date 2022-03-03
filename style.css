@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    overflow: hidden;
+}
+.child-container1{ /*nested DIV element*/
+    margin-bottom: 5%;
+}
+.child-container2{ /*Main container*/
+    height: 100%;
+    background-color:hsl(216, 50%, 16%);
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 37%;
+    margin-right: 37%;
+    border-radius: 10px;
+}
+.main-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.icon-view{
+    position: absolute;
+    top: 268px;
+    left: 615px;
+    display: none;
+}
+.main-img:hover .icon-view{
+    display: inline;
+}
+p, h1{
+    font-family: 'Outfit', sans-serif;
+}
+h1{
+    color: white;
+    font-weight: 600;
+    font-size: large;
+}
+h1:hover{
+color: aqua;
+}
+._discription{
+    margin-bottom: 0px;
+}
+p._data2,p._discription{
+color: hsl(215, 51%, 70%);
+}
+._data1{ /*0.04 ETH Style*/
+    display: inline;
+    color: hsl(178, 100%, 50%);
+    position: absolute;
+    top: 532px;
+    font-size: 13px;
+    padding-left: 7px;
+}
+._data2{ /*Number of days left*/
+    position: absolute;
+    top: 527px;
+    right:504px;
+    display: inline;
+}
+._data3{ /*Creation of*/
+    display: inline;
+    position: absolute;
+    top: 599px;
+    left: 545px;
+    color: hsl(215, 51%, 70%);
+}
+._data4{ /*Name of Creator*/
+    display: inline;
+    position: absolute;
+    top: 599px;
+    left: 629px;
+    color: white;
+}
+
+._data4:hover{
+    color: aqua;
+}
+._icon2{ /*Clock Icon*/
+    position: absolute;
+    right: 581px;
+    top: 544px;
+}
+.reg-line{ /*Horizontal Line*/
+    border-bottom: 1px solid hsl(214, 18%, 52%);
+    display: block;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+._avatar{ /*Profile Picture*/
+    border: 2px solid white;
+    border-radius: 35px;
+    display: inline;
+    width: 35px;
+    height: 35px;
+}
+.attributes{
+   color: hsl(214, 18%, 52%);
+   text-align: center;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+}
+a:visited{
+    color: red;
+}
+a:visited:hover{
+    color: cornflowerblue;
+}
